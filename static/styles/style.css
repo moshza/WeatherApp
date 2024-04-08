@@ -6,8 +6,9 @@
 
 body {
     padding: 2rem;
-    background-color: #333;
-    color: whitesmoke;
+    background-color: #E0FFFF; /* Very Light Blue */
+    background-image: linear-gradient(to bottom, #E0FFFF, #87CEEB, #4682B4); /* Gradient from Very Light Blue to Sky Blue to Darker Blue */
+    color: #A9A9A9;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -20,4 +21,13 @@ input, button {
     font-size: 2rem;
     padding: 1rem;
     border-radius: 10px;
+}
+
+.btn {
+    cursor: pointer;
+    border-radius: 25px; /* Border radius for rounded corners */
+}
+
+.btn:hover {
+    filter: brightness(90%)
 }
